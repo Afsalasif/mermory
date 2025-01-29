@@ -45,7 +45,7 @@ const Login: React.FC = () => {
           [theme.breakpoints.down("sm")]: {
             width: "300px",
             height: "300px",
-            top: "50%",
+            top: "30%",
             left: "-50%",
           },
         }}
@@ -111,7 +111,7 @@ const Login: React.FC = () => {
           px: "0",
           width: isMobile ? "90%" : "556px",
           height: "auto",
-          top: isTablet ? "50%" : isMobile ? "140px" : "122px",
+          top: isTablet ? "50%" : isMobile ? "70px" : "122px",
           left: isTablet ? "50%" : isMobile ? "5%" : "70px",
           transform: isTablet ? "translate(-50%, -50%)" : "none",
           gap: "10px",
