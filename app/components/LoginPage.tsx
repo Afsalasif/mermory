@@ -110,7 +110,7 @@ const Login: React.FC = () => {
           py: "40px",
           px: "0",
           width: isMobile ? "90%" : "556px",
-          height: "auto",
+          height: isMobile ? "auto" : "auto",
           top: isTablet ? "50%" : isMobile ? "70px" : "122px",
           left: isTablet ? "50%" : isMobile ? "5%" : "70px",
           transform: isTablet ? "translate(-50%, -50%)" : "none",
@@ -308,7 +308,7 @@ const Login: React.FC = () => {
             By continuing, you agree to our{" "}
             <a href="#" className="text-[#007CB5] font-figtree">
               User Agreement
-            </a>{" "}
+            </a>{" "}<br/>
             and acknowledge our{" "}
             <a href="#" className="text-[#007CB5] font-figtree">
               Privacy Policy
